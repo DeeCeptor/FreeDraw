@@ -1,0 +1,234 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.37f1 (8c66806a0c04) revision 9201280'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32649 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.37f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Programming/FreeDraw
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56034
+Successfully changed project path to: C:/Programming/FreeDraw
+C:/Programming/FreeDraw
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 24.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.37f1 (8c66806a0c04)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Programming/FreeDraw/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8081 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.002046 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 22.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.378 seconds
+Domain Reload Profiling:
+	ReloadAssembly (378ms)
+		BeginReloadAssembly (44ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (285ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (91ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (111ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (23ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (54ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002467 seconds.
+Begin MonoManager ReloadAssembly
+Unloading broken assembly Assets/AssetStoreTools/Editor/AssetStoreToolsExtra.dll, this assembly can cause crashes in the runtime
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.622 seconds
+Domain Reload Profiling:
+	ReloadAssembly (623ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (488ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (200ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1619 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.8 MB.
+System memory in use after: 72.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2054.
+Total: 2.154600 ms (FindLiveObjects: 0.107900 ms CreateObjectMapping: 0.042600 ms MarkObjects: 1.947300 ms  DeleteObjects: 0.056200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/FreeDraw/Scripts/Drawable.cs
+  artifactKey: Guid(571045d48cec88d48848f53bf379f673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDraw/Scripts/Drawable.cs using Guid(571045d48cec88d48848f53bf379f673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce96a3c004f3405424ab0b23feec0b3') in 0.019698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/FreeDraw/Art/PaintBucket.png
+  artifactKey: Guid(a3f142ce24d0ca44bb06d5eaf6bd8aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDraw/Art/PaintBucket.png using Guid(a3f142ce24d0ca44bb06d5eaf6bd8aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2f746c3d38756cda4058f550282be3') in 0.051971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/FreeDraw/Art/RedMarker.png
+  artifactKey: Guid(3ec8a00ba44542d438e2c23d01a413d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDraw/Art/RedMarker.png using Guid(3ec8a00ba44542d438e2c23d01a413d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9c5e2de86a388c966488dd26401654') in 0.009558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/FreeDraw/README.pdf
+  artifactKey: Guid(12ec0308df2724d4ca35273c66434d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDraw/README.pdf using Guid(12ec0308df2724d4ca35273c66434d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc1708dd8daa938d3571c8885263661') in 0.006670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/FreeDraw/Art/ReadWriteEnabledImage - Copy.png
+  artifactKey: Guid(403adc4c0a04e494ca2033818ca3c822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDraw/Art/ReadWriteEnabledImage - Copy.png using Guid(403adc4c0a04e494ca2033818ca3c822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a12dacb5d7e49e98d1de7e2ea7e81e') in 0.018232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/FreeDraw/Art
+  artifactKey: Guid(f322c85a52e4a754fb7346de27dfbcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDraw/Art using Guid(f322c85a52e4a754fb7346de27dfbcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0855696d94f1b9f9f637ea505eecd2a8') in 0.004294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/FreeDraw/Art/Pen.png
+  artifactKey: Guid(bd7e9961992cc884dab31a54c7ee5d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDraw/Art/Pen.png using Guid(bd7e9961992cc884dab31a54c7ee5d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71882fac2aac785a3427a80d9f7679d9') in 0.009319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/FreeDraw/Scripts/DrawingSettings.cs
+  artifactKey: Guid(03510ea897333a3478c3615be62b832e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDraw/Scripts/DrawingSettings.cs using Guid(03510ea897333a3478c3615be62b832e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac7fa1dd9b6cf63b9bec0cd982a9929') in 0.004451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/FreeDraw
+  artifactKey: Guid(c4d41bae8054b8d4391e88e0c42d51e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDraw using Guid(c4d41bae8054b8d4391e88e0c42d51e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766a717752da471857a4544dd9e85832') in 0.004465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/FreeDraw/Art/GreenMarker.png
+  artifactKey: Guid(641dfc3ece306034e919b2fe9b7723bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDraw/Art/GreenMarker.png using Guid(641dfc3ece306034e919b2fe9b7723bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f30ef52a9b94f3f834882873d62624') in 0.008912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/FreeDraw/Art/Eraser.png
+  artifactKey: Guid(9e1521f797ddd944381a0ce312a3df76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDraw/Art/Eraser.png using Guid(9e1521f797ddd944381a0ce312a3df76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f61d1b94dcf0bc512f6ce7ae9f40e0') in 0.011175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/FreeDraw/ExampleDrawingScene.unity
+  artifactKey: Guid(4ce4d4d4aeef2e54e97bb40827915db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDraw/ExampleDrawingScene.unity using Guid(4ce4d4d4aeef2e54e97bb40827915db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5200f7fc1756140fe5bdf66fb58bf4') in 0.004834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/FreeDraw/Art/BlueMarker.png
+  artifactKey: Guid(ceaa26d7f0d0c7f4e93f6716e82b047c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDraw/Art/BlueMarker.png using Guid(ceaa26d7f0d0c7f4e93f6716e82b047c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6f248545085c6e614e55a9c5fe5136') in 0.008153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/FreeDraw/Art/EraserBW.png
+  artifactKey: Guid(5513a8170a325d042bb0c544b06d1da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDraw/Art/EraserBW.png using Guid(5513a8170a325d042bb0c544b06d1da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d277a69e79a0d1bbe9a163eaeb76ac4') in 0.009954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/FreeDraw/Art/ReadWriteEnabledImage.png
+  artifactKey: Guid(a33b8a6cf583c534b83219b0504884d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDraw/Art/ReadWriteEnabledImage.png using Guid(a33b8a6cf583c534b83219b0504884d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8f424f09eccb423e14086a4e5dc954') in 0.018580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/FreeDraw/Scripts
+  artifactKey: Guid(b664cdb1beb3ad547a0f38f4bdb26d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDraw/Scripts using Guid(b664cdb1beb3ad547a0f38f4bdb26d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0092095fcfaecaf71248fc0413e3ab') in 0.004324 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
