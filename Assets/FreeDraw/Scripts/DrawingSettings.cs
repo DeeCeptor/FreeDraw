@@ -9,7 +9,7 @@ namespace FreeDraw
     public class DrawingSettings : MonoBehaviour
     {
         public static bool isCursorOverUI = false;
-        public float transparency = 1f;
+        public float Transparency = 1f;
 
         // Changing pen settings is easy as changing the static properties Drawable.Pen_Colour and Drawable.Pen_Width
         public void SetMarkerColour(Color new_color)
@@ -28,7 +28,7 @@ namespace FreeDraw
 
         public void SetTransparency(float amount)
         {
-            transparency = amount;
+            Transparency = amount;
             Color c = Drawable.Pen_Colour;
             c.a = amount;
             Drawable.Pen_Colour = c;
@@ -36,23 +36,26 @@ namespace FreeDraw
 
 
         // Call these these to change the pen settings
-        public void SetMarkerRed()
+        public void SetPenRed()
         {
             Color c = Color.red;
-            c.a = transparency;
+            c.a = Transparency;
             SetMarkerColour(c);
+            Drawable.drawable.SetPenBrush();
         }
-        public void SetMarkerGreen()
+        public void SetPenGreen()
         {
             Color c = Color.green;
-            c.a = transparency;
+            c.a = Transparency;
             SetMarkerColour(c);
+            Drawable.drawable.SetPenBrush();
         }
-        public void SetMarkerBlue()
+        public void SetPenBlue()
         {
             Color c = Color.blue;
-            c.a = transparency;
+            c.a = Transparency;
             SetMarkerColour(c);
+            Drawable.drawable.SetPenBrush();
         }
         public void SetEraser()
         {
@@ -62,6 +65,11 @@ namespace FreeDraw
         public void PartialSetEraser()
         {
             SetMarkerColour(new Color(255f, 255f, 255f, 0.5f));
+        }
+
+        public void SetFillBrush()
+        {
+            Drawable.drawable.SetFillBrush();
         }
     }
 }
